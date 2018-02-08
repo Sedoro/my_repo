@@ -10,6 +10,10 @@ function seno() {
 var sen = document.getElementById("seno");
 sen.value = Math.sin(sen.value);
 }
+function cuarta() {
+var num = document.getElementById("n2");
+num.value = Math.pow(num.value, 4);
+}
 </script>
 </head>
 <body>
@@ -20,6 +24,9 @@ Number:
 Seno:        
 <input type="text" id="seno">
 <button onclick="seno()"> seno </button><p>
+Número
+<input type="text" id="n2">
+<button onclick="cuarta()"> x^4 </button>
 </head>
 </body>
 </html>
